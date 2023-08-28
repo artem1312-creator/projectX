@@ -1,0 +1,186 @@
+body{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: aliceblue;
+line-height: 1.5;
+font-size: 1rem;
+background-color: black;
+min-width: 375px;
+}
+.wrap{
+max-width: 1280px; 
+margin: 0 auto;
+padding: 0 15px;
+box-sizing: border-box;
+}
+.header{
+width: 1097px;
+height: 119px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 30px 15px;
+box-sizing: border-box;
+margin: 0 auto;
+max-width: 100%;
+background-color: black;
+}
+.btn_header{
+font-family: Graphik;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 25px;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+text-decoration: none;
+padding: 10px 30px;
+border: 1px solid var(--light-text, #FFF);
+display: inline-flex;
+}
+.btn_header:hover{
+     color: black;
+     background-color: white;
+}
+.menu{
+     display: flex;
+     list-style: none;
+}
+.menu li{
+     margin-right: 51px; 
+     color: aliceblue;  
+}
+img .logo{
+display: inline-flex;
+padding: 10px;
+align-items: flex-start;
+gap: 10px;
+}
+.menu li a{
+     color:#FFFFFF; 
+     text-decoration: none; 
+}
+.menu li a:hover{
+     color:aqua; 
+      
+}
+.download{
+     color: #FFFFFF;
+     text-align: center;
+}
+.download_title{
+font-weight: 500;
+font-size: 5rem;
+line-height: 5.5rem;
+}
+.btn{
+     font-family: Graphik;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 25px;
+     font-size: 17px;
+     letter-spacing: 0.2px;
+     color: #FFFFFF;
+     text-decoration: none;
+     padding: 10px 30px;
+     border: 1px solid var(--light-text, #FFF);
+     display: inline-block;
+     margin: 0 35px;
+}
+.btn_2{
+     font-family: Graphik;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 17px;
+     line-height: 25px;
+     letter-spacing: 0.2px;
+     color: #FFFFFF;
+     text-decoration: none;
+     padding: 10px 30px;
+     border: 1px solid var(--light-text, #FFF);
+     display: inline-block;
+     margin: 0;
+}
+.btn:hover{
+     color: black;
+     background-color: white;
+}
+.btn_2:hover{
+     color: black;
+     background-color: white;
+}
+.btn-color{
+     border-color: #4452fe;
+     background:  #4452fe;
+     box-shadow: 0 4px 31px 0 rgba(0, 0, 0, 0.15);
+}
+.download_wrap{
+     display: flex;
+flex-direction: column;
+align-items: center;
+gap: 35px;
+align-self: stretch;
+}
+.pic{
+     margin-top: 35px;
+     background: linear-gradient(#00000000, #0E0E0E);
+}
+ .pictures{
+     display: flex;
+     justify-content: center;
+     width: 1552px;
+     height: 840px;
+     margin: 0 auto;
+     background: linear-gradient(#00000000, #0E0E0E);
+}
+.main{
+     background: var(--dark-background, #181818);
+}
+.feautures{
+     padding-top: 162px;
+     text-align: center;
+}
+.zagolovok{
+     color: white;
+     text-transform: uppercase;
+}
+.opisanie{
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 30px;
+     letter-spacing: 0.2px;
+}
+.chat_bot{
+     display: flex;
+     justify-content: center;
+     margin: 0 auto;
+     width: 1088px;
+     height: 759px;
+}
+.column{
+     display: flex;
+     padding-left: 47px;
+     flex-direction: column;
+     align-items: flex-start;
+}
+.title_1{
+     color: var(--light-text, #FFF);
+     font-family: Graphik;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 30px; 
+     letter-spacing: 0.1px;
+     
+}
+.par_1{
+     width: 249px;
+     height: 96px;
+     color: var(--light-text, #FFF);
+     font-family: Graphik;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 24px; /* 150% */
+     letter-spacing: 0.2px;
+}
