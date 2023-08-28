@@ -1,0 +1,357 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: aliceblue;
+  line-height: 1.5;
+  font-size: 16px;
+  background-color: #181818;
+  min-width: 375px;
+}
+.wrap {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.header {
+  max-width: 1097px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 15px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #181818;
+}
+.btn_header {
+  font-family: Graphik;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 30px;
+  border: 1px solid #fff;
+  display: inline-flex;
+}
+.btn_header:hover {
+  color: black;
+  background-color: white;
+}
+.menu {
+  display: flex;
+  list-style: none;
+}
+.menu li {
+  margin-right: 51px;
+  color: aliceblue;
+}
+img .logo {
+  display: inline-flex;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 10px;
+}
+.menu li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.menu li a:hover {
+  color: aqua;
+}
+.download {
+  color: #ffffff;
+  text-align: center;
+}
+.download_title {
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 88px;
+}
+.btn {
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  font-size: 17px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 30px;
+  border: 1px solid #fff;
+  display: inline-block;
+  margin: 0 35px;
+}
+.btn_2 {
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 30px;
+  border: 1px solid #fff;
+  display: inline-block;
+  margin: 0;
+}
+.btn:hover {
+  color: black;
+  background-color: white;
+}
+.btn_2:hover {
+  color: black;
+  background-color: white;
+}
+.btn-color {
+  border-color: #4452fe;
+  background: #4452fe;
+  box-shadow: 0 4px 31px 0 rgba(0, 0, 0, 0.15);
+}
+.download_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  align-self: stretch;
+}
+.pic {
+  margin-top: 35px;
+  background: linear-gradient(#00000000, #0e0e0e);
+}
+.pictures {
+  display: flex;
+  justify-content: center;
+  width: 1552px;
+  height: 840px;
+  margin: 0 auto;
+  background: linear-gradient(#00000000, #0e0e0e);
+}
+.main {
+  background: #181818;
+}
+.feautures {
+  padding-top: 162px;
+  text-align: center;
+}
+.zagolovok {
+  color: white;
+  text-transform: uppercase;
+}
+.opisanie {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+}
+.chat_bot {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1088px;
+  height: 759px;
+}
+.column {
+  display: flex;
+  padding-left: 47px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.title_f {
+  color: #fff;
+  font-family: Graphik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+}
+.par_1 {
+  width: 249px;
+  height: 96px;
+  color: #fff;
+  font-family: Graphik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.rest {
+  display: flex;
+  padding: 19px 3px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.restor {
+  display: flex;
+  position: relative;
+}
+.contents {
+  padding-top: 212px;
+  text-align: center;
+}
+.white_background {
+  width: 476px;
+  height: 624px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.white_background_2 {
+  width: 476px;
+  height: 624px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.feautures_photo {
+  display: flex;
+  columns: 2;
+  gap: 33px;
+  justify-content: center;
+  padding-top: 44px;
+}
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: #0e0e0e;
+  text-align: center;
+}
+.work_text {
+  width: 268px;
+  height: 72px;
+}
+.btn_work {
+  padding-top: 57px;
+  padding-bottom: 57px;
+}
+.macbook {
+  width: 405.125px;
+  height: 226.523px;
+}
+.design {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: #0e0e0e;
+  text-align: center;
+}
+.design_text {
+  width: 268px;
+  height: 72px;
+}
+.btn_design {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.design_photo {
+  width: 379px;
+  height: 276px;
+}
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  text-align: center;
+}
+.gallery_head {
+  padding-top: 90px;
+  text-align: center;
+}
+.gallery_text {
+  width: 571px;
+  height: 60px;
+}
+.gallery_photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding: 44px auto;
+  gap: 66px;
+}
+.btn_see_more {
+  display: flex;
+  height: 52px;
+  padding: 10px 30px;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 30px;
+  border: 1px solid #fff;
+  display: inline-flex;
+}
+.partners {
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.partners_head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  text-align: center;
+}
+.partners_logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 74px;
+}
+.btn_all_partners {
+  display: flex;
+  width: 176px;
+  height: 52px;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  display: inline-block;
+}
+.testimotionals_head {
+  text-align: center;
+  padding-top: 150px;
+}
+.testim_comms {
+  display: flex;
+  padding: 50px 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  align-self: stretch;
+}
+.name {
+  padding-bottom: 0;
+}
+.profession {
+  padding-top: 0;
+}
+.first_comm {
+  display: flex;
+  width: 430px;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 10px;
+  border: 1px solid #dedede;
+  background: var(--dark-background, #181818);
+}
